@@ -54,8 +54,8 @@ public class User {                                     // opening an account fo
         this.userId = user.userId;
         this.userName = user.userName;
         this.password = user.password;
-        this.savingAccount = new Account(savingAccount);                                            // objects 
-        this.checkingAccount = new Account(checkingAccount);                                        // objects
+        this.savingAccount = new Account(user.savingAccount);                                            // objects 
+        this.checkingAccount = new Account(user.checkingAccount);                                        // objects
         this.history = new ArrayList<>(history);                                                    // objects
     }
 
